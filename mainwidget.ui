@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>699</width>
+    <height>477</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,14 +16,43 @@
   <widget class="QPushButton" name="test_network_btn">
    <property name="geometry">
     <rect>
-     <x>580</x>
+     <x>470</x>
      <y>60</y>
-     <width>91</width>
-     <height>41</height>
+     <width>101</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="text">
     <string>网络测试</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>60</y>
+     <width>341</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(231, 231, 231);</string>
+   </property>
+   <property name="text">
+    <string>未加载图片</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="start_request_btn">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>140</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始请求图片</string>
    </property>
   </widget>
  </widget>

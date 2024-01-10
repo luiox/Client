@@ -13,6 +13,7 @@ MainWidget::MainWidget(QWidget *parent)
     , ui(new Ui::MainWidget)
 {
     ui->setupUi(this);
+    setWindowTitle("短波红外相机上位机");
     m_networkManager = new QNetworkAccessManager;
 }
 
